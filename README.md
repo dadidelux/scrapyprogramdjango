@@ -28,6 +28,14 @@ A web scraping project using Scrapy to scrape data and Django to manage and disp
 5. Upgrade pip first: `pip install --upgrade pip`
 6. Install the requirements: `pip install -r requirements.txt`
 7. Setup the database: `python manage.py migrate`
+8. Modify the .env and add your postgres credentials there see: this part 
+      DB_ENGINE=""
+      DB_NAME=""
+      DB_USER=""
+      DB_PASSWORD=""
+      DB_HOST=""
+      DB_PORT=""
+
 
 ## Usage
 
