@@ -25,8 +25,9 @@ A web scraping project using Scrapy to scrape data and Django to manage and disp
 4. Activate the virtual environment: 
    - On Windows: `.\scrapy-django-venv\Scripts\activate`
    - On Unix or MacOS: `source scrapy-django-venv/bin/activate`
-5. Install the requirements: `pip install -r requirements.txt`
-6. Setup the database: `python manage.py migrate`
+5. Install the requirements: `pip install --upgrade pip`
+6. Install the requirements: `pip install -r requirements.txt`
+7. Setup the database: `python manage.py migrate`
 
 ## Usage
 
@@ -36,9 +37,13 @@ A web scraping project using Scrapy to scrape data and Django to manage and disp
    - On Unix or MacOS: `source scrapy-django-venv/bin/activate`
 2. Navigate to the Django project directory where `manage.py` is located: `cd myproject`
 3. Run the spider using the Django management command: `python manage.py run_spider`
+4. if the program runs too long since the pages of the sample website is 69 you can skip the process and just press 'CTRL+C' on your keyboard after few mins.
+
+Now after scraping you can make it serve the view api via DRF
 
 
 ### Running the Django Server
 1. Navigate back to the Django project directory: `cd ../../`
 2. Run the server: `python manage.py runserver`
 3. Open a web browser and visit: `http://127.0.0.1:8000/`
+4. On the browser, please revist to view DRF api `http://127.0.0.1:8000/myapp/products/`
