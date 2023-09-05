@@ -21,7 +21,7 @@ A web scraping project using Scrapy to scrape data and Django to manage and disp
 ### Steps
 1. Clone the repository: `git clone https://github.com/dadidelux/scrapyprogramdjango.git`
 2. Navigate to the project directory: `cd scrapyprogramdjango`
-3. Install virtualenv: `python3 -m venv scrapy-django-venv` (mac) or '`python3 -m venv scrapy-django-venv` (windows)
+3. Install virtualenv: `python3 -m venv scrapy-django-venv` (mac) or '`python -m venv scrapy-django-venv` (windows)
 4. Activate the virtual environment: 
    - On Windows: `.\scrapy-django-venv\Scripts\activate`
    - On Unix or MacOS: `source scrapy-django-venv/bin/activate`
