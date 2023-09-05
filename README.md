@@ -57,4 +57,4 @@ Now after scraping you can make it serve the view api via DRF
 
 Final outcome:
 
-![Example Image](image_2.png)
+![Example Image](screenshot-01.png)
