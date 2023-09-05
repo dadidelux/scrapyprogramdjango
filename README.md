@@ -54,3 +54,7 @@ Now after scraping you can make it serve the view api via DRF
 2. Run the server: `python manage.py runserver`
 3. Open a web browser and visit: `http://127.0.0.1:8000/`
 4. On the browser, please revist to view DRF api `http://127.0.0.1:8000/myapp/products/`
+
+Final outcome:
+
+![Example Image](image.png)
