@@ -9,3 +9,5 @@ class ProductData(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     #image_url = models.URLField(max_length=500)
     image_url = models.TextField()
+    stock = models.TextField()
+    review = models.TextField()
