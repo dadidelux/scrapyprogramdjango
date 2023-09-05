@@ -21,21 +21,20 @@ A web scraping project using Scrapy to scrape data and Django to manage and disp
 ### Steps
 1. Clone the repository: `git clone https://github.com/dadidelux/scrapyprogramdjango.git`
 2. Navigate to the project directory: `cd scrapyprogramdjango`
-3. Install virtualenv: `python3 -m venv scrapy-django-venv` (mac) or '`python -m venv scrapy-django-venv` (windows)
+3. Install virtualenv: `python3 -m venv scrapy-django-venv` (mac) or `python -m venv scrapy-django-venv` (windows)
 4. Activate the virtual environment: 
    - On Windows: `.\scrapy-django-venv\Scripts\activate`
    - On Unix or MacOS: `source scrapy-django-venv/bin/activate`
 5. Upgrade pip first: `pip install --upgrade pip`
 6. Install the requirements: `pip install -r requirements.txt`
-7. Setup the database: `python manage.py migrate`
-8. Modify the .env and add your postgres credentials there see: this part 
+7. Modify the .env and add your postgres credentials there see this part:
       DB_ENGINE=""
       DB_NAME=""
       DB_USER=""
       DB_PASSWORD=""
       DB_HOST=""
       DB_PORT=""
-
+8. Setup the database: `python manage.py migrate`
 
 ## Usage
 
